@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Relative Tab Numbers",
+  "description": "This extension writes the tab number relative to the active tab.",
+  "version" : "0.1.0",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "icons": {
+    "128": "relative-tab-numbers.png"
+  },
+  "background": {
+    "scripts": ["relative-tab-numbers.js"]
+  }
+}
